@@ -4,7 +4,6 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <script src="http://use.edgefonts.net/source-code-pro.js"></script>
     <meta name="description" content="Source Code Pro : Repository for Source Code Pro Font" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
@@ -46,9 +45,6 @@
 
 <p>An example showing the HTML embed usage.</p>
 
-<div class="highlight"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"http://use.edgefonts.net/source-sans-pro.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</pre></div>
-
 <div class="highlight"><pre><span class="p">(</span><span class="kd">function</span><span class="p">(</span> <span class="nx">$</span> <span class="p">){</span>
 
   <span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">maxHeight</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
@@ -70,6 +66,28 @@
   <span class="n">product</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
   <span class="k">return</span> <span class="n">product</span>
 <span class="k">end</span>
+</pre></div>
+
+<p>And how to use the Source Code Pro as a web font! </p>
+
+<div class="highlight"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"http://use.edgefonts.net/source-code-pro.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<div class="highlight"><pre><span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
+<span class="nt">code</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span>
+
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">source</span><span class="o">-</span><span class="n">code</span><span class="o">-</span><span class="n">pro</span><span class="o">,</span> <span class="n">Monaco</span><span class="o">,</span> <span class="s2">"Bitstream Vera Sans Mono"</span><span class="o">,</span> <span class="s2">"Lucida Console"</span><span class="o">,</span> <span class="n">Terminal</span><span class="o">,</span> <span class="k">monospace</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+
+  <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">2px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+
 </pre></div>
 
 <h3>Web Font Usage</h3>
